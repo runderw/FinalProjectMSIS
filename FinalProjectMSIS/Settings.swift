@@ -23,7 +23,7 @@ struct Settings: View {
             Form {
               
                 
-                Section(header: Text("Credintials").font(.callout).padding(.top).padding(.bottom))
+                Section(header: Text("Credentials").font(.callout).padding(.top).padding(.bottom))
                 {
                        Text("Email").font(.subheadline)
                     TextField("Your email", text: $email)
@@ -38,9 +38,8 @@ struct Settings: View {
                     
                     Text("Submit")
                 }
-                    
-                    
-                    
+
+                  
                     
                 .navigationBarTitle(Text("Attendance"))
             }
