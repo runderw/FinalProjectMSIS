@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,9 +25,9 @@
 		7CB53B182433B2CF001F8F63 /* ListofCompany's.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53B172433B2CF001F8F63 /* ListofCompany's.swift */; };
 		7CB53B1A2433B440001F8F63 /* BottomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53B192433B440001F8F63 /* BottomRow.swift */; };
 		85BE38EAB3E761C87026EDB2 /* Pods_FinalProjectMSIS_FinalProjectMSISUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F210868351A9B4D34CE2B84 /* Pods_FinalProjectMSIS_FinalProjectMSISUITests.framework */; };
-		A96F02EE24358FCB008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02ED24358FCB008F1654 /* GoogleService-Info.plist */; };
-		A96F02EF24358FCB008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02ED24358FCB008F1654 /* GoogleService-Info.plist */; };
-		A96F02F024358FCB008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02ED24358FCB008F1654 /* GoogleService-Info.plist */; };
+		A96F02F224359CF2008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02F124359CF2008F1654 /* GoogleService-Info.plist */; };
+		A96F02F324359CF2008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02F124359CF2008F1654 /* GoogleService-Info.plist */; };
+		A96F02F424359CF2008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02F124359CF2008F1654 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +75,7 @@
 		7CB53B152433B2BA001F8F63 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		7CB53B172433B2CF001F8F63 /* ListofCompany's.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListofCompany's.swift"; sourceTree = "<group>"; };
 		7CB53B192433B440001F8F63 /* BottomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRow.swift; sourceTree = "<group>"; };
-		A96F02ED24358FCB008F1654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A96F02F124359CF2008F1654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D2755152AF1D1F77A98E7B89 /* Pods-FinalProjectMSISTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectMSISTests.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectMSISTests/Pods-FinalProjectMSISTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8BAC3B09D026985220FFE5 /* Pods-FinalProjectMSIS-FinalProjectMSISUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectMSIS-FinalProjectMSISUITests.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectMSIS-FinalProjectMSISUITests/Pods-FinalProjectMSIS-FinalProjectMSISUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F998CA8BE184E404C4060764 /* Pods-FinalProjectMSIS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectMSIS.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectMSIS/Pods-FinalProjectMSIS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				7CB53AE32433B1FD001F8F63 /* Assets.xcassets */,
 				7CB53AE82433B1FD001F8F63 /* LaunchScreen.storyboard */,
 				7CB53AEB2433B1FD001F8F63 /* Info.plist */,
-				A96F02ED24358FCB008F1654 /* GoogleService-Info.plist */,
+				A96F02F124359CF2008F1654 /* GoogleService-Info.plist */,
 				7CB53AE52433B1FD001F8F63 /* Preview Content */,
 			);
 			path = FinalProjectMSIS;
@@ -199,7 +199,6 @@
 				D2755152AF1D1F77A98E7B89 /* Pods-FinalProjectMSISTests.debug.xcconfig */,
 				16FB29BB88B20EDAB6558599 /* Pods-FinalProjectMSISTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -313,7 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB53AEA2433B1FD001F8F63 /* LaunchScreen.storyboard in Resources */,
-				A96F02EE24358FCB008F1654 /* GoogleService-Info.plist in Resources */,
+				A96F02F224359CF2008F1654 /* GoogleService-Info.plist in Resources */,
 				7CB53AE72433B1FD001F8F63 /* Preview Assets.xcassets in Resources */,
 				7CB53AE42433B1FD001F8F63 /* Assets.xcassets in Resources */,
 			);
@@ -323,7 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96F02EF24358FCB008F1654 /* GoogleService-Info.plist in Resources */,
+				A96F02F324359CF2008F1654 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96F02F024358FCB008F1654 /* GoogleService-Info.plist in Resources */,
+				A96F02F424359CF2008F1654 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

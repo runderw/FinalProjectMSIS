@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>302620644240-6j7ch8vrj5o874amnlgtoejdevu9l25h.apps.googleusercontent.com</string>
+	<string>302620644240-k4fn20td4oau86coe5lbciktla8455jg.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.302620644240-6j7ch8vrj5o874amnlgtoejdevu9l25h</string>
+	<string>com.googleusercontent.apps.302620644240-k4fn20td4oau86coe5lbciktla8455jg</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAH6gikoHaC6MNj-ItBVTeVhkzvJfRbFtU</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Okstate.FinalProjectMSIS</string>
+	<string>Okstate.FinalProjectMSIS</string>
 	<key>PROJECT_ID</key>
 	<string>adv-app-aitp</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:302620644240:ios:a4ed80f9d1ac90c13dd915</string>
+	<string>1:302620644240:ios:98b67d8c311d6c893dd915</string>
 	<key>DATABASE_URL</key>
 	<string>https://adv-app-aitp.firebaseio.com</string>
 </dict>
