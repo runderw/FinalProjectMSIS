@@ -9,16 +9,26 @@ target 'FinalProjectMSIS' do
 
 # add the Firebase pod for Google Analytics
 pod 'Firebase/Analytics'
+pod 'FireStore'
+pod 'Firebase/Core', '~> 5.12.0'
+pod 'Firebase/Firestore', '~> 5.12.0'
+
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
+
+
 
   target 'FinalProjectMSISTests' do
     inherit! :search_paths
     # Pods for testing
   end
-
-  target 'FinalProjectMSISUITests' do
-    # Pods for testing
+ target 'FinalProjectMSISUITests' do
+ 
+	# Pods for testing
   end
+
+
+ 
+
 
 end
