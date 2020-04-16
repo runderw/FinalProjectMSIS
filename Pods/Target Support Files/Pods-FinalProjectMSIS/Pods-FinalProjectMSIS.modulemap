@@ -1,0 +1,6 @@
+framework module Pods_FinalProjectMSIS {
+  umbrella header "Pods-FinalProjectMSIS-umbrella.h"
+
+  export *
+  module * { export * }
+}
