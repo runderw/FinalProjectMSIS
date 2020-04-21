@@ -9,13 +9,17 @@
 
 
 import SwiftUI
+import Firebase
+import FirebaseCore
+import FirebaseFirestore
 
 struct Settings: View {
 
    
-    @State var email = ""
-    @State var Password = ""
-    @State var submit = false
+    @State var Name = ""
+    @State var CWID = ""
+    @State var Company = ""
+    @State var Code = ""
     
     var body: some View {
         
@@ -23,21 +27,25 @@ struct Settings: View {
             Form {
               
                 
-                Section(header: Text("Credentials").font(.callout).padding(.top).padding(.bottom))
+                Section(header: Text("Attendance").font(.callout).padding(.top).padding(.bottom))
                 {
-                       Text("Email").font(.subheadline)
-                    TextField("Your email", text: $email)
+                       Text("Name").font(.subheadline)
+                    TextField("Your name", text: $Name)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                    Text("Password").font(.subheadline)
-                    TextField("Password", text: $Password)
+                    Text("CWID").font(.subheadline)
+                    TextField("CWID", text: $CWID)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                    
+                    Text("Code").font(.subheadline)
+                    TextField("Code", text: $Code)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    
+                    
                 }
                 
-                Button(action: { self.submit.toggle() }) {
-                    
-                    Text("Submit")
-                }
+                
+             
 
                   
                     
@@ -46,8 +54,8 @@ struct Settings: View {
             
         }
     }
-}
 
+}
 struct Settings_Previews: PreviewProvider {
     static var previews: some View {
         Settings()

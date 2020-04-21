@@ -29,7 +29,7 @@ struct TabBar: View {
             
             Settings().tabItem({
                 Image("IconSettings")
-                Text("Login")
+                Text("Attendance")
                 }).tag(3)
         }
       
