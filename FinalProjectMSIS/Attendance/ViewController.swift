@@ -32,7 +32,7 @@ public struct Attendance: Codable {
           //set as string in case someone puts an A.
     let Name: String
     let Code: String
-    let Company: String
+    let Company: String?
           
 
     enum CodingKeys: String, CodingKey {

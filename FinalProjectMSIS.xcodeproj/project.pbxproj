@@ -11,7 +11,6 @@
 		7601F57C718EC8E33AA208CB /* Pods_FinalProjectMSIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD8D994CE2216A0713D058 /* Pods_FinalProjectMSIS.framework */; };
 		7CB53ADE2433B1FB001F8F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53ADD2433B1FB001F8F63 /* AppDelegate.swift */; };
 		7CB53AE02433B1FB001F8F63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53ADF2433B1FB001F8F63 /* SceneDelegate.swift */; };
-		7CB53AE22433B1FB001F8F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53AE12433B1FB001F8F63 /* ContentView.swift */; };
 		7CB53AE42433B1FD001F8F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB53AE32433B1FD001F8F63 /* Assets.xcassets */; };
 		7CB53AE72433B1FD001F8F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB53AE62433B1FD001F8F63 /* Preview Assets.xcassets */; };
 		7CB53AEA2433B1FD001F8F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB53AE82433B1FD001F8F63 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,7 @@
 		7CB53B182433B2CF001F8F63 /* ListofCompany's.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53B172433B2CF001F8F63 /* ListofCompany's.swift */; };
 		7CB53B1A2433B440001F8F63 /* BottomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB53B192433B440001F8F63 /* BottomRow.swift */; };
 		85BE38EAB3E761C87026EDB2 /* Pods_FinalProjectMSIS_FinalProjectMSISUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F210868351A9B4D34CE2B84 /* Pods_FinalProjectMSIS_FinalProjectMSISUITests.framework */; };
+		A922583C244FF2FC00C37A63 /* Main .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A922583B244FF2FC00C37A63 /* Main .storyboard */; };
 		A95D354D24461AFC00216AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D354C24461AFC00216AAA /* ViewController.swift */; };
 		A96F02F224359CF2008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02F124359CF2008F1654 /* GoogleService-Info.plist */; };
 		A96F02F324359CF2008F1654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96F02F124359CF2008F1654 /* GoogleService-Info.plist */; };
@@ -58,7 +58,6 @@
 		7CB53ADA2433B1FB001F8F63 /* FinalProjectMSIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectMSIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB53ADD2433B1FB001F8F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB53ADF2433B1FB001F8F63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CB53AE12433B1FB001F8F63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CB53AE32433B1FD001F8F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB53AE62433B1FD001F8F63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CB53AE92433B1FD001F8F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +75,7 @@
 		7CB53B152433B2BA001F8F63 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		7CB53B172433B2CF001F8F63 /* ListofCompany's.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListofCompany's.swift"; sourceTree = "<group>"; };
 		7CB53B192433B440001F8F63 /* BottomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRow.swift; sourceTree = "<group>"; };
+		A922583B244FF2FC00C37A63 /* Main .storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Main .storyboard"; sourceTree = "<group>"; };
 		A95D354C24461AFC00216AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A96F02F124359CF2008F1654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D2755152AF1D1F77A98E7B89 /* Pods-FinalProjectMSISTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectMSISTests.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectMSISTests/Pods-FinalProjectMSISTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,13 +146,11 @@
 		7CB53ADC2433B1FB001F8F63 /* FinalProjectMSIS */ = {
 			isa = PBXGroup;
 			children = (
+				A94894BC244F8BDE000834AB /* Attendance */,
 				7CB53ADD2433B1FB001F8F63 /* AppDelegate.swift */,
 				7CB53ADF2433B1FB001F8F63 /* SceneDelegate.swift */,
-				7CB53AE12433B1FB001F8F63 /* ContentView.swift */,
-				A95D354C24461AFC00216AAA /* ViewController.swift */,
 				7CB53B0D2433B273001F8F63 /* TabBar.swift */,
 				7CB53B0F2433B282001F8F63 /* Home.swift */,
-				7CB53B112433B296001F8F63 /* Settings.swift */,
 				7CB53B192433B440001F8F63 /* BottomRow.swift */,
 				7CB53B132433B2A9001F8F63 /* CompanyDetail.swift */,
 				7CB53B152433B2BA001F8F63 /* HomeList.swift */,
@@ -190,6 +188,16 @@
 				7CB53B012433B1FD001F8F63 /* Info.plist */,
 			);
 			path = FinalProjectMSISUITests;
+			sourceTree = "<group>";
+		};
+		A94894BC244F8BDE000834AB /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				7CB53B112433B296001F8F63 /* Settings.swift */,
+				A922583B244FF2FC00C37A63 /* Main .storyboard */,
+				A95D354C24461AFC00216AAA /* ViewController.swift */,
+			);
+			path = Attendance;
 			sourceTree = "<group>";
 		};
 		DB0F7C81CBE1F733FE2F0854 /* Pods */ = {
@@ -274,7 +282,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Robert Underwood";
+				ORGANIZATIONNAME = "AITP OSU";
 				TargetAttributes = {
 					7CB53AD92433B1FB001F8F63 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -314,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A922583C244FF2FC00C37A63 /* Main .storyboard in Resources */,
 				7CB53AEA2433B1FD001F8F63 /* LaunchScreen.storyboard in Resources */,
 				A96F02F224359CF2008F1654 /* GoogleService-Info.plist in Resources */,
 				7CB53AE72433B1FD001F8F63 /* Preview Assets.xcassets in Resources */,
@@ -454,7 +463,6 @@
 				A95D354D24461AFC00216AAA /* ViewController.swift in Sources */,
 				7CB53B102433B282001F8F63 /* Home.swift in Sources */,
 				7CB53B1A2433B440001F8F63 /* BottomRow.swift in Sources */,
-				7CB53AE22433B1FB001F8F63 /* ContentView.swift in Sources */,
 				7CB53B0E2433B273001F8F63 /* TabBar.swift in Sources */,
 				7CB53B162433B2BA001F8F63 /* HomeList.swift in Sources */,
 				7CB53B142433B2A9001F8F63 /* CompanyDetail.swift in Sources */,
