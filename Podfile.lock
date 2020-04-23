@@ -132,9 +132,9 @@ PODS:
     - SwiftXtend/Core
 
 DEPENDENCIES:
-  - Firebase/Analytics
-  - Firebase/Core (~> 5.12.0)
-  - Firebase/Firestore (~> 5.12.0)
+  - Firebase/Analytics (= 5.12.0)
+  - Firebase/Core (= 5.12.0)
+  - Firebase/Firestore (= 5.12.0)
   - FireStore
 
 SPEC REPOS:
@@ -184,6 +184,6 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   SwiftXtend: 12539d07f953ee1ce6b9653b51f681909a21e913
 
-PODFILE CHECKSUM: 2754ad0d1c67dd7f8554b51333a133d7b40a4655
+PODFILE CHECKSUM: e6be63cd1d5ca9645821847eb332206def01be54
 
 COCOAPODS: 1.9.1

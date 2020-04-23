@@ -46,27 +46,12 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>FirebaseCoreDiagnostics.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>26</integer>
-		</dict>
-		<key>FirebaseCoreDiagnosticsInterop.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>27</integer>
-		</dict>
 		<key>FirebaseFirestore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
-		</dict>
-		<key>FirebaseInstallations.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>28</integer>
 		</dict>
 		<key>FirebaseInstanceID.xcscheme</key>
 		<dict>
@@ -81,16 +66,6 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>8</integer>
-		</dict>
-		<key>GoogleDataTransport.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>29</integer>
-		</dict>
-		<key>GoogleDataTransportCCTSupport.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>30</integer>
 		</dict>
 		<key>GoogleUtilities.xcscheme</key>
 		<dict>
@@ -119,11 +94,6 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>21</integer>
-		</dict>
-		<key>PromisesObjC.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>31</integer>
 		</dict>
 		<key>Protobuf.xcscheme</key>
 		<dict>

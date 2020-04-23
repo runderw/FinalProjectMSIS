@@ -8,10 +8,10 @@ target 'FinalProjectMSIS' do
   # Pods for FinalProjectMSIS
 
 # add the Firebase pod for Google Analytics
-pod 'Firebase/Analytics'
+pod 'Firebase/Analytics', '= 5.12.0'
 pod 'FireStore'
-pod 'Firebase/Core', '~> 5.12.0'
-pod 'Firebase/Firestore', '~> 5.12.0'
+pod 'Firebase/Core', '= 5.12.0'
+pod 'Firebase/Firestore', '= 5.12.0'
 
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods

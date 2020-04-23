@@ -7,6 +7,8 @@
 //
 
 import SwiftUI
+import FireStore
+import Firebase
 
 struct TabBar: View {
     var body: some View {
